@@ -97,7 +97,8 @@ export default function Home() {
                 src="/profile-photo.jpg"
                 alt="Jessica Green"
                 fill
-                className="object-cover object-center"
+                className="object-cover"
+                style={{ objectPosition: "50% 18%", transform: "scale(1.55)", transformOrigin: "50% 18%" }}
                 priority
               />
             </div>
