@@ -98,7 +98,7 @@ export default function Home() {
                 alt="Jessica Green"
                 fill
                 className="object-cover"
-                style={{ objectPosition: "50% 18%", transform: "scale(1.55)", transformOrigin: "50% 18%" }}
+                style={{ objectPosition: "50% 18%", transform: "scale(1.2)", transformOrigin: "50% 18%" }}
                 priority
               />
             </div>
