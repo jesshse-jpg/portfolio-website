@@ -92,12 +92,13 @@ export default function Home() {
 
           {/* Photo side */}
           <div className="flex-shrink-0 flex justify-center md:justify-end">
-            <div className="relative h-56 w-56 md:h-72 md:w-72 rounded-full overflow-hidden border-2 border-[#23252a] ring-4 ring-[#5e6ad2]/20">
+            <div className="h-56 w-56 md:h-72 md:w-72 rounded-full border-2 border-[#23252a] ring-4 ring-[#5e6ad2]/20 bg-[#0f1011] flex items-center justify-center overflow-hidden">
               <Image
                 src="/profile-photo.jpg"
                 alt="Jessica Green"
-                fill
-                className="object-cover object-top"
+                width={260}
+                height={260}
+                className="object-contain w-[85%] h-[85%]"
                 priority
               />
             </div>
