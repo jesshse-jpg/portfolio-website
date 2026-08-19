@@ -510,8 +510,8 @@ export default function Home() {
             {/* Contact Method 2 */}
             <div className="rounded-xl border border-[#23252a] bg-[#0f1011] p-6 hover:bg-[#141516] transition-colors duration-300">
               <span className="text-xs text-[#8a8f98] block mb-1">PHONE NUMBER</span>
-              <a href="tel:02746051399" className="text-base font-semibold text-white hover:text-[#828fff] transition-colors">
-                027 4605 1399
+              <a href="tel:0274605139" className="text-base font-semibold text-white hover:text-[#828fff] transition-colors">
+                027 460 5139
               </a>
             </div>
 
